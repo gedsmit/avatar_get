@@ -1,0 +1,34 @@
+# .gitignore
+__pycache__/
+*.py[cod]
+*.env
+*.venv
+*.log
+*.csv
+*.json
+*.sqlite
+*.pb
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Flask
+instance/
+
+# Virtual environment
+venv/
+ENV/
+
+# PyCharm
+.idea/
+*.iml
+
+# Models
+/models/
+
+# Generated Images
+/animeGenerated/
+
+# Streamlit
+.streamlit/
