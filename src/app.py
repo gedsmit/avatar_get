@@ -16,7 +16,7 @@ def app():
     banner = Image.open("data/streamlit/banner.png")
     st.image(banner)
 
-    st.title("👥 Avatar Generator")
+    st.title("👥 Anime Avatar Generator")
 
     # Sidebar
     st.sidebar.title("Controls")
