@@ -29,6 +29,7 @@ This project provides a simple way to generate unique avatars using a pre-traine
 `
 git clone https://github.com/gedsmit/GAN_Avatar_Generator.git
 `
+
 `
 cd GAN_Avatar_Generator
 `
