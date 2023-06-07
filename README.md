@@ -40,7 +40,7 @@ run_app.cmd
 3. To train the model refer to Colab Notebook:
 
 
-[Colab Notebook](https://openai.com)https://colab.research.google.com/drive/1ZtTck-4_tR85hkRPtMhkrgeVXL4qigA4?usp=sharing)
+[Colab Notebook](https://colab.research.google.com/drive/1ZtTck-4_tR85hkRPtMhkrgeVXL4qigA4?usp=sharing)
 
 
 This command will install the required packages and start the application.
