@@ -28,6 +28,8 @@ This project provides a simple way to generate unique avatars using a pre-traine
 
 `
 git clone https://github.com/gedsmit/GAN_Avatar_Generator.git
+`
+`
 cd GAN_Avatar_Generator
 `
 
@@ -37,10 +39,7 @@ cd GAN_Avatar_Generator
 run_app.cmd
 `
 
-3. To train the model refer to Colab Notebook:
-
-
-[Colab Notebook](https://colab.research.google.com/drive/1ZtTck-4_tR85hkRPtMhkrgeVXL4qigA4?usp=sharing)
+3. To train the model refer to the [Colab Notebook](https://colab.research.google.com/drive/1ZtTck-4_tR85hkRPtMhkrgeVXL4qigA4?usp=sharing)
 
 
 This command will install the required packages and start the application.
