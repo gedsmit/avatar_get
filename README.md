@@ -26,42 +26,34 @@ This project provides a simple way to generate unique avatars using a pre-traine
 
 1. Clone the repository:
 
-\`\`\`
+`
 git clone https://github.com/gedsmit/GAN_Avatar_Generator.git
 cd GAN_Avatar_Generator
-\`\`\`
+`
 
-2. Install the requirements:
+2. Run the application:
 
-\`\`\`
-pip install -r requirements.txt
-\`\`\`
+`
+run_app.cmd
+`
 
-3. Download the pre-trained model and place it in the `models/` directory.
+3. To train the model refer to Colab Notebook:
 
-## Usage
 
-Start the Flask server:
+[Colab Notebook](https://openai.com)https://colab.research.google.com/drive/1ZtTck-4_tR85hkRPtMhkrgeVXL4qigA4?usp=sharing)
 
-\`\`\`shell
-python app.py
-\`\`\`
 
-Start the Streamlit app:
-
-\`\`\`shell
-streamlit run app.py
-\`\`\`
+This command will install the required packages and start the application.
 
 ## API Documentation
 
-To generate avatars, send a POST request to the `/generate` route with the number of avatars you want to generate.
+To generate avatars, send a POST request to the `/generate` endpoint, specifying the number of avatars you want to generate.
 
 Example:
 
-\`\`\`shell
+`
 curl -X POST -d "num_images=5" http://localhost:5000/generate
-\`\`\`
+`
 
 ## Contributing
 
@@ -70,3 +62,13 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Reflections and Future Work
+
+This project served as an excellent opportunity to delve deeper into GANs and learn about end-to-end deployment of deep learning models in a real-life scenario. 
+
+The project borrows its primary model structure from a Kaggle project and uses pretrained weights. The training process proved to be challenging due to the complex nature of GANs, reminding us of the intricate balance needed to effectively train such models. We modified the discriminator model by incorporating a pretrained VGG16 model, which improved the model's performance.
+
+The use of Google Colab presented a hurdle due to its limitations, which reinforced the importance of robust hardware for deep learning tasks. Despite these challenges, we were able to train the model for 200 epochs.
+
+In the future, we plan to continue enhancing the model's performance and training it for more epochs. We also plan to experiment with different GAN architectures and training techniques to improve the quality of the generated avatars. We look forward to updating our model and delivering even better results in avatar generation.
