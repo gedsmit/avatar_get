@@ -65,10 +65,14 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Reflections and Future Work
 
-This project served as an excellent opportunity to delve deeper into GANs and learn about end-to-end deployment of deep learning models in a real-life scenario. 
+This project provided us with an invaluable opportunity to delve deeper into GANs and gain practical experience in deploying deep learning models in real-life scenarios.
 
-The project borrows its primary model structure from a Kaggle project and uses pretrained weights. The training process proved to be challenging due to the complex nature of GANs, reminding us of the intricate balance needed to effectively train such models. We modified the discriminator model by incorporating a pretrained VGG16 model, which improved the model's performance.
+Initially, we encountered challenges due to the limitations of Google Colab. However, after investing time and effort into addressing these issues, we were able to train our model for an extended period of 1000 epochs. Unfortunately, despite the increased training duration, the results did not meet our expectations in terms of avatar quality.
 
-The use of Google Colab presented a hurdle due to its limitations, which reinforced the importance of robust hardware for deep learning tasks. Despite these challenges, we were able to train the model for 200 epochs.
+These results highlight the complexity and sensitivity of GANs, where achieving optimal performance requires careful tuning of various parameters and architectural choices. It is evident that further research and experimentation are necessary to generate avatars of higher quality.
 
-In the future, we plan to continue enhancing the model's performance and training it for more epochs. We also plan to experiment with different GAN architectures and training techniques to improve the quality of the generated avatars. We look forward to updating our model and delivering even better results in avatar generation.
+In future work, we plan to explore alternative architectures and training techniques to enhance the performance of our model. This could involve investigating advanced GAN variants, such as Progressive GANs or StyleGAN, which have shown promising results in generating realistic and diverse images.
+
+Additionally, we aim to address the limitations of our current approach by exploring strategies such as data augmentation, regularization techniques, or adjusting the loss functions. These techniques have the potential to further improve the quality of the generated avatars and increase their resemblance to real anime faces.
+
+By continuing our research and refining the model, we hope to achieve better results and contribute to the advancement of avatar generation techniques. We acknowledge that there is still much to learn in this field, and we are excited about the future possibilities and the potential impact of our work.
